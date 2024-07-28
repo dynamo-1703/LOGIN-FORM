@@ -1,0 +1,112 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial,roboto;
+    background-color: rgb(82, 149, 82);
+}
+
+.card{
+    flex: 1;
+    max-width: 300px;
+    min-width: 200px;
+    margin-top: 100px;
+    border: none;
+
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.upper-region{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(31, 84, 31);
+    font-weight:700 ;
+    font-size: 20px;
+}
+
+.middle-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    height:30px ;
+    border-radius: 5px;
+    border-color: lightgrey ;
+    border-width: 1px;
+    border-style: solid;
+    width: 70%;
+    margin-top: 30px;
+    outline: none;
+}
+
+input::placeholder{
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.password{
+    margin-top: 10px;
+}
+
+.forget{
+    margin-right: 30%;
+    font-size: 13px;
+    color: rgb(31, 84, 31);
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.forget:hover{
+    text-decoration:underline;
+}
+
+.lower-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 85%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(31, 84, 31);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: .8;
+
+}
+.text{
+    font-size: 15px;
+}
+
+.member{
+    color: rgb(31, 84, 31);
+    cursor: pointer;
+}
+
+.message {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border: 1px solid #81d4fa;
+    border-radius: 3px;
+    color: #00796b;
+    text-align: center;
+}
